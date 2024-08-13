@@ -1,0 +1,69 @@
+.tab-container{
+    width: 800px;
+    height: 400px;
+    box-shadow: 3px 5px 10px rgba(17, 43, 146, 0.918);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    list-style: none;
+}
+.option{
+    flex: 1;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white;
+    background-color: #FFD700; /* Amarillo */
+    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.option-active{
+     background-color: #1E90FF; /* Azul */
+    color: white;
+    border-bottom: 2px solid #FF4500; /* Rojo */
+}
+.contents{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    color:#1E90FF ;
+    display: none;
+}
+.content-active{
+    display: block;
+}
+li:hover {
+    background-color: #eaf2f8; 
+}
+li{
+    font-size: 18px;
+}
+.content{
+    padding: 20px;
+}
+
+.Gestionando{
+    width: 100%; 
+    height: 100%; 
+
+}
+
+.imagen{  
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
